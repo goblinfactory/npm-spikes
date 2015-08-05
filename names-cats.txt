@@ -1,6 +1,6 @@
-Bacon
-Banjo
-Heathcliff
-Waffles
-Yoda
-Picasso
+BaconCat
+BanjoCat
+HeathcliffCat
+WafflesCat
+YodaCat
+PicassoCat

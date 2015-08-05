@@ -1,5 +1,5 @@
-Buster
-Pee Wee
-Spud
-Taco
-Wagner
+BusterDog
+Pee Wee Dog
+SpudDog
+TacoDog
+WagnerDog

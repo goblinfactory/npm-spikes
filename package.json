@@ -1,5 +1,15 @@
 {
   "scripts": {
-    "concat": "echo \"Woot doing the concat dance\""
+    "bundle": "echo \"bundling using browserify.\"",
+    "clean": "rm -rf build && mkdir build",
+    "concat": "node build-concat.js *.txt build/animals.txt",
+    
+    "prebundle" : "npm run clean",
+    "prebundle" : "npm run clean"
+    
+  },
+  "dependencies": {
+    "concat": "^1.0.0",
+    "path": "^0.11.14"
   }
 }
