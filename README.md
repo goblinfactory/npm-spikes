@@ -9,4 +9,23 @@ For my first experiment though I've used concat as a very poor man's browserify,
 
 I'm new to GIT so am a bit concerned I'm going to get myself all muddled up, forget that I'm on a branch, so this will be fun to test out.
 
+To use this branch;
+
+```shell
+
+  git clone https://github.com/goblinfactory/npm-spikes.git
+  npm install 
+  npm run build
+ 
+  # will generate the following output, ignoring output from npm restore
+
+ Build started;
+  - cleaning /build folder
+  - bundling using concat
+    : files to concat:names-cats.txt,names-dogs.txt
+    : bundle file written -> build/animals.txt
+ Build complete.
+ 
+```
+
 ###[back to master](../..)
