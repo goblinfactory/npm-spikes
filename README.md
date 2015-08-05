@@ -17,3 +17,5 @@ For my first experiment [branch 'bundling'](../../tree/concat), I've used concat
 1. [branch 'bundling' using concat and javascript file](../../tree/concat)
 
 Yeah, I know I'm reproducting functionality that's already built into GITHub web browser, (and there's a dropdown with all the branches) this is my sandbox playground. ;-D
+
+By having multiple branches I can keep each branch's codebase small and containing only the files necesary to demonstrate or test the one piece of the build I want to explore. 
