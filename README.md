@@ -14,6 +14,6 @@ For my first experiment [branch 'bundling'](../../tree/concat), I've used concat
 
 ###Available Branches
 
-1. [branch 'bundling'](../../tree/concat)
+1. [branch 'bundling' using concat and javascript file](../../tree/concat)
 
 Yeah, I know I'm reproducting functionality that's already built into GITHub web browser, (and there's a dropdown with all the branches) this is my sandbox playground. ;-D
