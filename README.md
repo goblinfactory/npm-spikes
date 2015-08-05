@@ -13,7 +13,7 @@ To use this branch;
 
 ```shell
 
-  git clone https://github.com/goblinfactory/npm-spikes.git
+  git clone -b concat https://github.com/goblinfactory/npm-spikes.git
   npm install 
   npm run build
  
