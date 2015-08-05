@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "concat": "echo \"Woot doing the concat dance\""
+  }
+}
