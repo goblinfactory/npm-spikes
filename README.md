@@ -7,4 +7,4 @@ I've decided to use browserify for bundling,  since it's the tool that's used in
 
 For my first experiment though I've used concat as a very poor man's browserify, lol! ...and a custom javascript file to call concat (build-concat.js) manually concat two test files. 
 
-I'm new to GIT so am a bit concerned I'm going to get myself all muddled up, forget that I'm on a branch, so this will be fun to test out ;-D
+I'm new to GIT so am a bit concerned I'm going to get myself all muddled up, forget that I'm on a branch, so this will be fun to test out.
