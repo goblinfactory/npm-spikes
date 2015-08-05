@@ -7,6 +7,5 @@ var args = process.argv;
 var outfile = args[args.length-1];
 args.pop();
 var srcfiles = args.slice(2);
-console.log("outputfile:" + outfile);
-console.log("files to concat:" + srcfiles);
-concat(srcfiles, outfile, function() { console.log("concat -> " + outfile)});
+console.log("   : files to concat:" + srcfiles);
+concat(srcfiles, outfile, function() { console.log("   : bundle file written -> " + outfile)});

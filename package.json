@@ -1,12 +1,9 @@
 {
   "scripts": {
-    "bundle": "echo \"bundling using browserify.\"",
-    "clean": "rm -rf build && mkdir build",
-    "concat": "node build-concat.js *.txt build/animals.txt",
-    
-    "prebundle" : "npm run clean",
-    "prebundle" : "npm run clean"
-    
+    "build" : "npm run build-all -s",
+    "build-all": "echo \"Build started;\" && npm run clean -s && npm run concat -s && echo \"Build complete.\n\"",
+    "clean": "echo \" - cleaning /build folder\" && rm -rf build && mkdir build",
+    "concat": "echo \" - bundling using concat\" && node build-concat.js *.txt build/animals.txt"    
   },
   "dependencies": {
     "concat": "^1.0.0",
