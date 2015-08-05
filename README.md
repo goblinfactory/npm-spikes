@@ -5,8 +5,9 @@ I want to try to build my own up scripts as I need them step by step with very f
 
 Random notes:
 
-##bundling
+##bundling - using concat & custom js file.
 
 I've decided to use browserify for bundling, since it's the tool that's used in the npm-script example. Also, found this article 
 [moving from requirejs to browserify](http://orizens.com/wp/topics/a-journey-from-require-js-to-browserify/) and it indicates that browserify is a step up from require.js, not knowing any better, I'm going to go with that as a placeholder start.
 
+For my first experiment [branch 'bundling'](/tree/concat), I've used concat, and a custom javascript file to call concat [build-concat.js] manually concat two test files. 
